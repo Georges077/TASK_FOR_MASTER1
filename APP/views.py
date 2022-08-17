@@ -103,6 +103,7 @@ class AddForm(QtWidgets.QDialog):
         self.setup_form()
 
     def setup_form(self):
+        """ფორმის ინიციალიზაციის მეთოდი"""
         self.f_name.setStyleSheet("color:orange; width:200;")
         self.f_name.setPlaceholderText("სახელი")
         self.l_name.setStyleSheet("color:orange; width:200;")
